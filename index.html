@@ -9,162 +9,38 @@
       rel="stylesheet"
     />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Vite App</title>
+    <title>Movie Ticket</title>
   </head>
-
   <body>
     <div class="wrapper">
-      <header class="poster">
-        <div>
+      <header>
+        <div class="movie-title">
           <h1>Guardians of the Galaxy Vol. 2</h1>
           <address>Cineplex Entertainment, Toronto ON</address>
         </div>
       </header>
-
-      <div class="legends">
-        <div>
-          <i class="fas fa-couch fa-lg availble-seat"></i>
-          <span>Availble</span> 
-        </div>
-        <div>
-          <i class="fas fa-couch booked-seat"></i>
+      <div class="legend">
+        <li>
+          <i class="fas fa-couch fa-lg available-seat"></i>
+          <span>Available</span>
+        </li>
+        <li>
+          <i class="fas fa-lg fa-couch booked-seat"></i>
           <span>Booked</span>
-        </div>
-        <div>
-          <i class="fas fa-couch selected-seat"></i>
+        </li>
+        <li>
+          <i class="fas fa-lg fa-couch selected-seat"></i>
           <span>Selected</span>
-        </div>
+        </li>
       </div>
-
-      <div class="seats">
-        <div class="row-one">
-          <div>
-            <span>G</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G1"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G2"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G3"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G4"></i>
-          </div>
-          <div>
-            <span>F</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona F1"></i>
-            <i class="fas fa-couch fa-2xl booked-seat " title="Poltrona F2"></i>
-            <i class="fas fa-couch fa-2xl booked-seat " title="Poltrona F3"></i>
-            <i class="fas fa-couch fa-2xl booked-seat " title="Poltrona F4"></i>
-          </div>
-          <div>
-            <span>E</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E1"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E2"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E3"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E4"></i>
-          </div>
-          <div>
-            <span>D</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D1"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D2"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D3"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D4"></i>
-          </div>
-          <div>
-            <span>C</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona C1"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona C2"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona C3"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona C4"></i>
-          </div>
-          <div>
-            <span>B</span>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona B1"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona B2"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona B3"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona B4"></i>
-          </div>
-          <div>
-            <span>A</span>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A1"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A2"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A3"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A4"></i>
-          </div>
-        </div>
-
-        <div class="row-two">
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G5"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G6"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona G8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona F5"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona F6"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona F7"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona F8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E5"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona E6"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona E7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona E8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D5"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D6"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona D8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona C5"></i>
-            <i class="fas fa-couch fa-2xl booked-seat" title="Poltrona C6"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona C7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona C8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona B5"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona B6"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona B7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona B8"></i>
-          </div>
-          <div>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A5"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A6"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A7"></i>
-            <i class="fas fa-couch fa-2xl" title="Poltrona A8"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="screen" title="Screen">
-        <span>Screen</span>
-        <span></span>
-      </div>
-
-      <footer>
-        <div>
-          <span>Date</span>
-          <span>Tickets</span>
-          <strong>TOTAL</strong>
-        </div>
-        <div>
-          <div>
-            <span>Jul 11, 19:15</span>
-            <span>3</span>
-            <strong>R$31</strong>
-          </div>
-          <button>Next ></button>
-        </div>
-      </footer>
     </div>
-
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
