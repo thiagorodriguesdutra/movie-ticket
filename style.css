@@ -173,6 +173,7 @@ main {
 
 .checkbox-wrapper i {
   position: relative;
+  cursor: pointer;
   font-size: 24px;
   z-index: 0;
 }
